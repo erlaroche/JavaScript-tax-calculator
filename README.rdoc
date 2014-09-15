@@ -1,1 +1,3 @@
 Practiceing JavaScript by creating a tool to calculate sales tax.
+
+Technologies: HTML, CSS, and JavaScript
