@@ -10,6 +10,6 @@ function salesClerk() {
 	var taxRate=.08;
 	var taxOnPrice=purchasePrice * taxRate;
 	var total=purchasePrice + taxOnPrice;
-	alert("Your bill is $" + total);
+	alert("Your bill is $" + Math.round(total*Math.pow(10,2))/Math.pow(10,2));
 	}	
 }
