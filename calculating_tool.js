@@ -1,5 +1,5 @@
 function salesClerk() {
-	var purchasePrice=parseInt(prompt("Enter the value of the item you're purchasing.", "0"), 10);
+	var purchasePrice=parseFloat(prompt("Enter the value of the item you're purchasing.", "0"), 10);
 	if (purchasePrice <= 0) {
 		alert ("Please input a value greater than '0'.");
 	}
